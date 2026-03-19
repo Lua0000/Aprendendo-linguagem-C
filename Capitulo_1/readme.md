@@ -160,7 +160,7 @@ R = Deve usar aspas duplas `"`
 - d) Sempre que o programador ache necessário ou conveniente.
 
 Resposta = D 
-
+---
 ##13. Um programa em C, que tenha comentários no seu código, é, em relação a outro que não os tenha,
 -a) Mais rápido para executar.
 -b) Mais lento para executar.
