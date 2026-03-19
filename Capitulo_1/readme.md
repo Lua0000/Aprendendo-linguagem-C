@@ -167,7 +167,7 @@ Resposta = D
 -c) Executado praticamente à mesma velocidade, pois os comentários exige muma utilização ínfima da CPU.
 -d) Executado à mesma velocidade, pois os comentários são simplesmente ignorados pelo compilador, não havendo qualquer reflexo deles no tempo de execução.
 
-##Resposta = D
+Resposta = D
 
 ##14. Indique se são verdadeiras ou falsas as seguintes afirmações:
 Os Comentários
