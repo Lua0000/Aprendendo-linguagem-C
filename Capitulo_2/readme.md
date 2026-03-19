@@ -13,7 +13,7 @@
 ---
 
 ## 2.Uma variável inteira, quando é declarada, é sempre iniciada com ...
-- `a) 0 (Zero)`
+- a) 0 (Zero)
 - b) 1 (Um)
 - c) Um valor aleatório
 - d) Um valor negativo:
