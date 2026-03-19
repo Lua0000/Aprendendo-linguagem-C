@@ -1,97 +1,105 @@
 # 📘 Capítulo 2 – Exercícios Corrigidos em C
 
-1. Indique quais das seguintes declarações estão corretas:
+## 1. Indique quais das seguintes declarações estão corretas
 
-a) y int; → Incorreta
-b) int; → Incorreta
-c) integerx; → Incorreta
-d) inta, b; → Incorreto
-e) float f, g, c; → Correto
-f) char chl=ch2-A'; → Incorreto
-g) char chi = 'A', ch2 = 'A'; → Correto
-
----
-
-2. Uma variável inteira, quando é declarada, é sempre iniciada com:
-
-a) 0
-b) 1
-c) Um valor aleatório
-d) Um valor negativo
-
-Resposta = **C**
+- `y int;` → **Incorreta**
+- `int;` → **Incorreta**
+- `integerx;` → **Incorreta**
+- `inta, b;` → **Incorreto**
+- `float f, g, c;` → **Correto**
+- `char chl=ch2='A';` → **Incorreto**
+- `char chi = 'A', ch2 = 'A';` → **Correto**
 
 ---
 
-3. Identificadores corretos e incorretos:
+## 2. Uma variável inteira, quando é declarada, é sempre iniciada com:
 
-a) Valor → Correto
-b) &XN2X → Incorreto
-c) dez% → Incorreto
-d) a+b → Incorreto
-e) _Kabonga → Correto
-f) MENOS → Correto
-g) 10a → Incorreto
-h) alO → Correto
-i) main → Incorreto
-j) F1 → Correto
+**Resposta:** **c) Um valor aleatório**
 
 ---
 
-4. O nome de uma variável:
+## 3. Identificadores corretos e incorretos
 
-a) deve indicar aquilo que ela armazena → Correto
-b) deve ser o menor possível → Incorreto
-c) deve ser o maior possível → Incorreto
-d) deve ser o mais explícito possível → Correto
-e) deve ser todo em maiúsculas → Incorreto
-f) pode começar com underscore (_) → Correto
-g) pode conter mais de um caractere → Correto
+- `Valor` → **Correto**
+- `&XN2X` → **Incorreto**
+- `dez%` → **Incorreto**
+- `a+b` → **Incorreto**
+- `_Kabonga` → **Correto**
+- `MENOS` → **Correto**
+- `10a` → **Incorreto**
+- `alO` → **Correto**
+- `main` → **Incorreto**
+- `F1` → **Correto**
 
----
-
-5. Associe os tipos aos formatos:
-
-int → %d
-float → %f
-char → %c
-long int → %ld
-short int → %hd
-signed long int → %ld
 
 ---
 
-6. Verdadeiro ou falso:
+## 4. O nome de uma variável:
 
-a) Verdadeiro ✔️
-b) Falso ❌
-c) Verdadeiro ✔️
-d) Verdadeiro ✔️
-e) Falso ❌
-f) Falso ❌
-g) Falso ❌
-h) Verdadeiro ✔️
+- deve indicar aquilo que ela armazena → **Correto**
+- deve ser o menor possível → **Incorreto**
+- deve ser o maior possível → **Incorreto**
+- deve ser o mais explícito possível → **Correto**
+- deve ser todo em maiúsculas → **Incorreto**
+- pode começar com underscore (`_`) → **Correto**
+- pode conter mais de um caractere → **Correto**
 
 ---
 
-7. Identifique os erros de compilação:
+## 5. Associe os seguintes tipos aos correspondentes formatos de leitura e escrita
 
-7.1
+| Tipo              | Formato |
+|-------------------|---------|
+| `int`             | `%d`    |
+| `float`           | `%f`    |
+| `char`            | `%c`    |
+| `long int`        | `%ld`   |
+| `short int`       | `%hd`   |
+| `signed long int` | `%ld`   |
 
+---
+
+## 6. Indique quais das seguintes afirmações são verdadeiras e quais são falsas
+
+- **a)** O tipo `float` reserva espaço em memória para um real com precisão simples, enquanto o tipo `double` reserva espaço para uma variável com precisão dupla.  
+  → **Verdadeiro** ✔️
+
+- **b)** O tipo `char` pode ter os prefixos `long` e `short`.  
+  → **Falso** ❌
+
+- **c)** O tipo `char` pode ter os prefixos `signed` e `unsigned`.  
+  → **Verdadeiro** ✔️
+
+- **d)** Uma variável declarada como `unsigned` pode comportar valores superiores a uma outra que seja declarada como `signed`.  
+  → **Verdadeiro** ✔️
+
+- **e)** Uma variável do tipo `char` pode armazenar caracteres individuais ou conjuntos de caracteres também denominados por strings.  
+  → **Falso** ❌
+
+- **f)** Uma variável do tipo `char` pode armazenar vários caracteres, desde que todos eles sejam caracteres ASCII.  
+  → **Falso** ❌
+
+- **g)** Uma variável do tipo `char` pode armazenar vários caracteres, desde que sejam caracteres especiais.  
+  → **Falso** ❌
+
+- **h)** O operador módulo (`%`) não pode ser utilizado em reais.  
+  → **Verdadeiro** ✔️
+
+---
+
+## 7. Identifique os erros de compilação
+
+### 7.1
 ```c
 #include <stdio.h>
 main () {
     int x, y, x;
 }
 ```
+Erro: Variável x declarada duas vezes.
 
-R = Variável `x` declarada duas vezes
-
----
-
-7.2
-
-```c
+### 7.2 
+````c
 #include <stdio.h>
 main ()
 {
@@ -99,42 +107,29 @@ main ()
     float int = 5.23;
     printf ("%f",int);
 }
-```
+````
+Erros:
 
-R =
+int é palavra reservada
+Tipo incorreto na declaração
 
-* `int` é palavra reservada
-* tipo incorreto na declaração
-
----
-
-7.3
-
-```c
+### 7.3 
+````c
 #include <stdio.h>
 main ()
 {
     int x=y=z=0;
     printf("%d %d %d \n",x,y,z);
 }
-```
-
-R = Forma incorreta de declarar múltiplas variáveis
-
-Correto:
-
+`````
+Correção:
 ```c
-int x, y, z;
-x = y = z = 0;
-```
-
----
-
-8. Possíveis erros de execução:
-
+    int x, y, z;
+    x = y = z = 0;
+````
+8. Possíveis erros de execução
 8.1
-
-```c
+```c 
 #include <stdio.h>
 main ()
 {
@@ -143,13 +138,9 @@ main ()
     printf("O n° = %d\n", n);
 }
 ```
-
-R = Uso incorreto do `scanf` (como se fosse `printf`)
-
----
+Erro: Uso errado do scanf (está sendo usado como se fosse printf).
 
 8.2
-
 ```c
 main ()
 {
@@ -159,13 +150,9 @@ main ()
     printf("O n° = %d\n",n);
 }
 ```
-
-R = `\n` no scanf faz o programa esperar mais entrada
-
----
+Erro: \n no scanf causa espera extra de entrada.
 
 8.3
-
 ```c
 #include <stdio.h>
 main()
@@ -176,17 +163,54 @@ main()
     printf("O n° = %f\n",n);
 }
 ```
+Erros:
 
-R =
+Tipo incorreto (%f com variável int)
+Falta de #include <stdio.h> em alguns casos
+main() deveria ser int main()
 
-* tipo incorreto (`%f` com int)
-* erros de string/aspas
-* falta `int main()`
-
----
-
-9. Programa (dd/mm/aaaa):
-
+9. Escreva umprograma que solicite ao usuário uma determinada data e amostre em seguida no formato
+dd/mm/aaaa
 ```c
-#include <stdio.
+#include <stdio.h>
+
+int main() {
+    int Dia, Mes, Ano;
+
+    printf("Digite uma data: ");
+    scanf("%d", &Dia);
+
+    printf("Digite um mes: ");
+    scanf("%d", &Mes);
+
+    printf("Digite um ano: ");
+    scanf("%d", &Ano);
+
+    printf("A data: %d/%d/%d\n", Dia, Mes, Ano);
+
+    return 0;
+}
+```
+10. Escreva um programa que solicite ao usuário uma determinada data no formato aaaa-mm-dd e a
+mostre em seguida no formato dd/mm/aaaa
+```c
+#include <stdio.h>
+
+int main() {
+    int Ano, Mes, Dia;
+
+    printf("Ano: ");
+    scanf("%d", &Ano);
+
+    printf("Mes: ");
+    scanf("%d", &Mes);
+
+    printf("Dia: ");
+    scanf("%d", &Dia);
+
+    printf("Formato AAAA-MM-DD: %d-%d-%d\n", Ano, Mes, Dia);
+    printf("Formato DD/MM/AAAA: %d/%d/%d\n", Dia, Mes, Ano);
+
+    return 0;
+}
 ```
