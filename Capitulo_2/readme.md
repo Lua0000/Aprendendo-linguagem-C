@@ -12,13 +12,18 @@
 
 ---
 
-## 2. Uma variável inteira, quando é declarada, é sempre iniciada com:
+## 2.Uma variável inteira, quando é declarada, é sempre iniciada com ...
+a) 0 (Zero)
+b) 1 (Um)
+c) Um valor aleatório
+d) Um valor negativo:
 
 **Resposta:** **c) Um valor aleatório**
 
 ---
 
-## 3. Identificadores corretos e incorretos
+## 3. Indique, na seguinte lista, quais os identificadores corretos e incorretos de variáveis:
+
 
 - `Valor` → **Correto**
 - `&XN2X` → **Incorreto**
