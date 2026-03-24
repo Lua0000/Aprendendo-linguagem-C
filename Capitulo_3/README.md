@@ -5,11 +5,23 @@
 resposta  =  Pois váriaveis do tipo float são feitas para armazenar números reais (com casas decimais), enquanto
 valores lógicos devem ser representados por tipos apropriados como bool ou int 
 
-## 2- ndique quais, das seguintes afirmações, são verdadeiras e quais são falsas.
+## 2- Indique quais, das seguintes afirmações, são verdadeiras e quais são falsas.
 
-- 2.1 O else de um ifé facultativo.
-- 2.2 Num ifsão necessários parênteses em tomo da condição.
-- 2.3 O ifpode conter a palavra then opcionalmente.
-- 2.4 Tanto a componente ifcomo a componente else só podem conter uma única instrução.
-- 2.5 O iftem que estar numa linha diferente do else.
-- 2.6 Na condição do z/pode ser colocada uma constante, uma variável ou uma expressão.
+- 2.1 O else de um if é facultativo. ✔️
+- 2.2 Num if são necessários parênteses em tomo da condição. ✔️
+- 2.3 O if pode conter a palavra then opcionalmente. ❌ 
+- 2.4 Tanto a componente if como a componente else só podem conter uma única instrução. ❌
+- 2.5 O if tem que estar numa linha diferente do else. ❌
+- 2.6 Na condição do if pode ser colocada uma constante, uma variável ou uma expressão. ✔️
+- 
+## 3. Como consegue uma instrução if-else saber onde termina o if e começa o else, ou se o if tem ou não else
+
+resposta = Ela sabe pela estrutura do código, usando {} quando necessário, e o else sempre pertence ao if mais próximo. 
+
+## 4. Um bloco pode ser constituído por apenas uma instrução?
+
+resposta = Sim, um bloco pode ser constituído por apenas uma instrução. e isso faz não precisar dividor o codigo em {}.
+
+## 5. Depois de um bloco é obrigatório o uso de ';' ?
+
+resposta = Não
