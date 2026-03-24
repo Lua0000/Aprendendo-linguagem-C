@@ -80,7 +80,7 @@ para o else?
 resposta = Não, O break é usado para interromper estruturas de repetição (for, while, do-while) ou um switch.
 quando executado, ele sai imediatamente da estrutura em que está, não tendo relação direta com o if-else.
 
-##12. Qual o valor lógico que as seguintes expressões enviam para o ifl
+##12. Qual o valor lógico que as seguintes expressões enviam para o if
 -a) if (10 == 5) -> false
 -b) if ( (2 + 3) == - ( -2 -3) -> True
 -c) if (x = 5) -> True
