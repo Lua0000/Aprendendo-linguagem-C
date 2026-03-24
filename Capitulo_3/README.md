@@ -109,39 +109,56 @@ if (x == 0 && y <= 32)
 ````c
 #include <stdio.h>
 main () {
- int x;
- if (x==0)
+int x;
+if (x==0)
   break;
 else
   printf("X não é zero \n") ;
 }
 ````
-resposta = 
+resposta = Uso inválido do break fora de estruturas de repetição ou fora do switch
 
 ##15.2 
 ````c 
 #include <stdio.h>
-main ()
-{
+main () {
 int x;
 if (x==0) then
-printf("X é zero \n");
+  printf("X é zero \n");
 else
-printf(”X não é zero \n");
-} 
+  printf(”X não é zero \n");
+}
 `````
 
-resposta = 
+resposta = Na linguagem C não existe then
+
 ##15.3 #include <stdio.h>
 ````c
 
-main () { int x;
+main () {
+int x;
 switch (x)
 {
-case 1: printf("um"); break;
-case 2: printf("dois"); break;
-else: printf("Nem um nem dois");
+  case 1: printf("um");
+break;
+  case 2: printf("dois");
+break;
+  else: printf("Nem um nem dois");
 }
 ````
 
-resposta = 
+resposta = em C o switch não usa else, o correto é usar default, 
+
+##16. Escreva um programa, de quatro formas distintas, que leia um inteiro e indique se esse inteiro é ou não igual a zero.
+
+##17. Reescreva o programa anterior com um switch.
+
+##18. Escreva um programa que verifique se um ano é bissexto ou não.
+
+##19. Escreva um programa que indique o número de dias existentes em um mês (fevereiro = 28 dias).
+- 19.1 Usando apenas a instrução de teste if-else.
+- 19.2 Usando o switch.
+- 19.3 Usando o switch sem qualquer break.
+
+##20. Escreva um programa que leia uma data e verifique se esta é válida ou não.
+
