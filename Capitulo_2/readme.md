@@ -1,4 +1,4 @@
-# 📘 Capítulo 2 – Exercícios Corrigidos em C
+# 📘 Capítulo 2 – Questionário sobre C
 
 ## 1. Indique quais das seguintes declarações estão corretas
 
