@@ -86,13 +86,13 @@ quando executado, ele sai imediatamente da estrutura em que está, não tendo re
 -c) if (x = 5) -> True
 -d) if (x = 0) -> False
 
-##13. Supondo x= 4, y= 6 e z= -1, qual o valor lógico das seguintes expressões:
+## 13. Supondo x= 4, y= 6 e z= -1, qual o valor lógico das seguintes expressões:
 -a) if (x == 5) false
 -b) if (x == 5 || z<0) true
 -c) if (y-x+z-1) false
 -d) if (x == 4 || y>= z && ! (z) ) true
 
-##14. Escreva, utilizando um único if, o seguinte código.
+## 14. Escreva, utilizando um único if, o seguinte código.
 ````c
 if (x == 0)
   if (y <= 32)
