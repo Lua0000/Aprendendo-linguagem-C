@@ -31,8 +31,8 @@ Demonstrar, na prática, meu progresso e experiência na linguagem C, através d
 
 * 📂 Capítulo 1 — ✅ Concluído
 * 📂 Capítulo 2 — ✅ Concluído
-* 📂 Capítulo 3 — 🔄 Em andamento
-* 📂 Capítulo 4 — 🔄 Em andamento
+* 📂 Capítulo 3 — ✅ Concluído
+* 📂 Capítulo 4 — ✅ Concluído
 
 ---
 
