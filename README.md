@@ -1,1 +1,1 @@
-![Image](https://github.com/user-attachments/assets/8feb81b1-b543-493e-904e-b9ca4f1b418e)
+![capa-livro](https://github.com/user-attachments/assets/51904b3d-f985-40ea-afbe-de85cf419848)
