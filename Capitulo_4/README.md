@@ -1,4 +1,4 @@
-# 📘 Capítulo 3 – Questionario sobre C
+# 📘 Capítulo 4 – Questionario sobre C
 ## 1. Indique quais afirmações são Falsas e quais são Verdadeiras:
 
 - 1.1 A condição dentro de um laço while e do...while tem que ser colocada sempre dentro de parênteses. -> ✔️
