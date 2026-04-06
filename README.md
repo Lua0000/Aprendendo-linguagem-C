@@ -46,5 +46,5 @@ Foco em aprender a Sintaxe da linguagem, demonstrar, na prática, meu progresso 
 
 ## 📌 Observação
 
-Este repositório é focado em aprendizado contínuo. Erros fazem parte do processo 🚀
-Este repositório não tem todos os capitulos feitos, pois eu foquei apenas na sintaxe. 
+- Este repositório é focado em aprendizado contínuo. Erros fazem parte do processo 🚀
+- Este repositório não tem todos os capitulos feitos, pois eu foquei apenas na sintaxe. 
