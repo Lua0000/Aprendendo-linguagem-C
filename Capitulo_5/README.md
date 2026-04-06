@@ -1,6 +1,6 @@
 # 📘 Capítulo 5 – Questionario sobre C
 
-##1. Indique se são verdadeiras ou falsas as seguintes afirmações:
+## 1. Indique se são verdadeiras ou falsas as seguintes afirmações:
 - a) Uma função em C pode devolver simultaneamente mais do que um valor.
 - b) Uma função em C pode não ter parâmetros.
 - c) Uma função em C tem que devolver sempre um inteiro.
