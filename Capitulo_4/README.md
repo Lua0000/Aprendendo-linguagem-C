@@ -298,8 +298,8 @@ incrementa n → 1
 condição n != 0 continua sempre verdadeira
 loop infinito
 
-✔ Resultado: loop infinito
 
+✔ Resultado: loop infinito
 
 
 
