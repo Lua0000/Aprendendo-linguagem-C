@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Sobre o repositório
+## Sobre o repositório
 
 Este repositório tem como objetivo documentar minha evolução nos estudos da linguagem **C**, com base no livro *Linguagem C* de **Luís Damas** e seguindo também, os ensinamentos do site https://beej.us/guide/bgc/html/index-wide.html#file-inputoutput
 
@@ -22,13 +22,13 @@ Aqui você encontrará:
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Foco em aprender a Sintaxe da linguagem, demonstrar, na prática, meu progresso e experiência na linguagem C, através da resolução estruturada dos exercícios do livro.
 
 ---
 
-## 🚀 Progresso
+## Progresso
 
 * 📂 Capítulo 1 — ✅ Concluído
 * 📂 Capítulo 2 — ✅ Concluído
@@ -40,7 +40,7 @@ Foco em aprender a Sintaxe da linguagem, demonstrar, na prática, meu progresso 
 * 📂 Capítulo 8 — ✅ Concluído
 ---
 
-## 💻 Tecnologias
+## Tecnologias
 
 * Linguagem C
 * Compilador GCC
@@ -48,7 +48,7 @@ Foco em aprender a Sintaxe da linguagem, demonstrar, na prática, meu progresso 
 
 ---
 
-## 📌 Observação
+## Observação
 
 - Este repositório é focado em aprendizado contínuo. Erros fazem parte do processo 🚀
 - Este repositório não tem todos os capitulos feitos, pois eu foquei apenas na sintaxe. 
