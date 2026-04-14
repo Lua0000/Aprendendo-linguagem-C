@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📘 Linguagem C — Luís Damas
+# 📘 Linguagem C — Luís Damas & Beej
 
 <img src="https://github.com/user-attachments/assets/51904b3d-f985-40ea-afbe-de85cf419848" alt="Capa do livro" width="250"/>
 
@@ -10,7 +10,7 @@
 
 ## 📖 Sobre o repositório
 
-Este repositório tem como objetivo documentar minha evolução nos estudos da linguagem **C**, com base no livro *Linguagem C* de **Luís Damas**.
+Este repositório tem como objetivo documentar minha evolução nos estudos da linguagem **C**, com base no livro *Linguagem C* de **Luís Damas** e seguindo também, os ensinamentos do site https://beej.us/guide/bgc/html/index-wide.html#file-inputoutput
 
 Aqui você encontrará:
 
